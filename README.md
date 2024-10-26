@@ -15,7 +15,7 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
     `data/processed/xxxxGDSCxx.pt`  - path of processed bulk data, train, val and test
 
 ## Model
-### training model:
+### Training model:
 	Exp.1 - models/gat_gcn_transformer_meth_ge_mut.py   
 	Exp.2 - models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py  
 	Exp.3 - models/gat_gcn_transformer_meth_ge_mut_multiple.py  
@@ -26,7 +26,7 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 	Exp.8 - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
 
 ## Training
-### training code:
+### Training code:
      Exp.1 `training.py` - origion multi-modal/single-modal module  
      Exp.2 `training_continue_KD1.py` - distill from origion multi-modal  
      Exp.3 `training_continue_combine.py` - our proposed privileged information knowledge distillation framework  
@@ -36,7 +36,7 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
      Exp.7 `training_continue_KD.py`  - distill from module 4; KD LOSS + RAD loss  
      Exp.8 `training_continue_KD.py`  - distill from module 4; only RAD loss  
 
-### loss:
+### Loss:
 	Exp.1  | MSE  
 	Exp.2  | MSE + KD  
 	Exp.3  | MSE  
@@ -46,6 +46,7 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 	Exp.7  | MSE + KD + RAD  
 	Exp.8  | MSE + RAD  
  
+ ### Pretrained models
 	`origion ge-modal weights used in code`  
 	- result/2024-05-14 18:37:42/model_GAT_GCN_Transformer_ge_only_GDSC.model  
 		
