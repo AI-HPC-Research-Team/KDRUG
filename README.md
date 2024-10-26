@@ -37,26 +37,26 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
      Exp.8 `training_continue_KD.py`  - distill from module 4; only RAD loss  
 
 ### loss:
-Exp.1  | MSE  
-Exp.2  | MSE + KD  
-Exp.3  | MSE  
-Exp.4  | MSE  
-Exp.5  | MSE + KD  
-Exp.6  | MSE + KD  
-Exp.7  | MSE + KD + RAD  
-Exp.8  | MSE + RAD  
-
+	Exp.1  | MSE  
+	Exp.2  | MSE + KD  
+	Exp.3  | MSE  
+	Exp.4  | MSE  
+	Exp.5  | MSE + KD  
+	Exp.6  | MSE + KD  
+	Exp.7  | MSE + KD + RAD  
+	Exp.8  | MSE + RAD  
+ 
 `origion ge-modal weights used in code`  
-- result/2024-05-14 18:37:42/model_GAT_GCN_Transformer_ge_only_GDSC.model  
-
+	- result/2024-05-14 18:37:42/model_GAT_GCN_Transformer_ge_only_GDSC.model  
+	
 `origion multi-modal weights used in code`  
-- model_GAT_GCN_Transformer_meth_ge_mut_GDSC.model  
-
+	- model_GAT_GCN_Transformer_meth_ge_mut_GDSC.model  
+	
 `origion combined model`  
-- model_continue_combine_pretrain_relu_GDSC.model  
-
+	- model_continue_combine_pretrain_relu_GDSC.model  
+	
 `our multi-modal & re-weighted strategy`  
-- model_continue_combine_pretrain_multiheadattn(ge_others)_relu_GDSC.model  
+	- model_continue_combine_pretrain_multiheadattn(ge_others)_relu_GDSC.model  
 
 ### TCGA test
 result/plot_TCGA/compute_GDSC_TCGA_distribution.py
