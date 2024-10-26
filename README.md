@@ -16,25 +16,25 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 
 ## Model
 ### training model:
-`1` - models/gat_gcn_transformer_meth_ge_mut.py   
-`2` - models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py  
-`3` - models/gat_gcn_transformer_meth_ge_mut_multiple.py  
-`4` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py  
-`5` - models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py  
-`6` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
-`7` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
-`8` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	`1` - models/gat_gcn_transformer_meth_ge_mut.py   
+	`2` - models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py  
+	`3` - models/gat_gcn_transformer_meth_ge_mut_multiple.py  
+	`4` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py  
+	`5` - models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py  
+	`6` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	`7` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	`8` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
 
 ## Training
 ### training code:
-`1 training.py` - origion multi-modal/single-modal module  
-`2 training_continue_KD1.py` - distill from origion multi-modal  
-`3 training_continue_combine.py` - our proposed privileged information knowledge distillation framework  
-`4 training_continue_combine.py` - feature re-weighting strategy using in 3   
-`5 training_continue_KD.py` - distill from module 3  
-`6 training_continue_KD.py` - distill from module 4  
-`7 training_continue_KD.py`  - distill from module 4; KD LOSS + RAD loss  
-`8 training_continue_KD.py`  - distill from module 4; only RAD loss  
+    `1 training.py` - origion multi-modal/single-modal module  
+    `2 training_continue_KD1.py` - distill from origion multi-modal  
+    `3 training_continue_combine.py` - our proposed privileged information knowledge distillation framework  
+    `4 training_continue_combine.py` - feature re-weighting strategy using in 3   
+    `5 training_continue_KD.py` - distill from module 3  
+    `6 training_continue_KD.py` - distill from module 4  
+    `7 training_continue_KD.py`  - distill from module 4; KD LOSS + RAD loss  
+    `8 training_continue_KD.py`  - distill from module 4; only RAD loss  
 
 ### loss:
 1| MSE  
@@ -62,6 +62,7 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 result/plot_TCGA/compute_GDSC_TCGA_distribution.py
 
 * Thanks to [Thang Chu, et al.] for providing excellent code and documentation. This project was inspired by and includes some code from [GraTransDRP] T. Chu, T. T. Nguyen, B. D. Hai, Q. H. Nguyen and T. Nguyen, "Graph Transformer for Drug Response Prediction," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1065-1072, 1 March-April 2023
+
 ## References
 ```
 [1]: Yang, W., Soares, J., et al.: Genomics of drug sensitivity in cancer (gdsc): a resource for therapeutic biomarker discovery in cancer cells. Nucleic acids research 41(D1), 955–961 (2012)
