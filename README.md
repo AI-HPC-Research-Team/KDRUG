@@ -16,35 +16,35 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 
 ## Model
 ### training model:
-	`1` - models/gat_gcn_transformer_meth_ge_mut.py   
-	`2` - models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py  
-	`3` - models/gat_gcn_transformer_meth_ge_mut_multiple.py  
-	`4` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py  
-	`5` - models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py  
-	`6` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
-	`7` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
-	`8` - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	Exp.1 - models/gat_gcn_transformer_meth_ge_mut.py   
+	Exp.2 - models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py  
+	Exp.3 - models/gat_gcn_transformer_meth_ge_mut_multiple.py  
+	Exp.4 - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py  
+	Exp.5 - models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py  
+	Exp.6 - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	Exp.7 - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
+	Exp.8 - models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py  
 
 ## Training
 ### training code:
-    `1 training.py` - origion multi-modal/single-modal module  
-    `2 training_continue_KD1.py` - distill from origion multi-modal  
-    `3 training_continue_combine.py` - our proposed privileged information knowledge distillation framework  
-    `4 training_continue_combine.py` - feature re-weighting strategy using in 3   
-    `5 training_continue_KD.py` - distill from module 3  
-    `6 training_continue_KD.py` - distill from module 4  
-    `7 training_continue_KD.py`  - distill from module 4; KD LOSS + RAD loss  
-    `8 training_continue_KD.py`  - distill from module 4; only RAD loss  
+     Exp.1 `training.py` - origion multi-modal/single-modal module  
+     Exp.2 `training_continue_KD1.py` - distill from origion multi-modal  
+     Exp.3 `training_continue_combine.py` - our proposed privileged information knowledge distillation framework  
+     Exp.4 `training_continue_combine.py` - feature re-weighting strategy using in 3   
+     Exp.5 `training_continue_KD.py` - distill from module 3  
+     Exp.6 `training_continue_KD.py` - distill from module 4  
+     Exp.7 `training_continue_KD.py`  - distill from module 4; KD LOSS + RAD loss  
+     Exp.8 `training_continue_KD.py`  - distill from module 4; only RAD loss  
 
 ### loss:
-1| MSE  
-2| MSE + KD  
-3| MSE  
-4| MSE  
-5| MSE + KD  
-6| MSE + KD  
-7| MSE + KD + RAD  
-8| MSE + RAD  
+Exp.1  | MSE  
+Exp.2  | MSE + KD  
+Exp.3  | MSE  
+Exp.4  | MSE  
+Exp.5  | MSE + KD  
+Exp.6  | MSE + KD  
+Exp.7  | MSE + KD + RAD  
+Exp.8  | MSE + RAD  
 
 `origion ge-modal weights used in code`  
 - result/2024-05-14 18:37:42/model_GAT_GCN_Transformer_ge_only_GDSC.model  
