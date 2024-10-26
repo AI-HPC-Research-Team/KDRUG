@@ -16,15 +16,14 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 
 ## Model
 ### training model:
-1|models/gat_gcn_transformer_meth_ge_mut.py;
-  models/gat_gcn_transformer_meth_ge.py
-2|models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py
-3|models/gat_gcn_transformer_meth_ge_mut_multiple.py
-4|models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py
-5|models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py
-6|models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
-7|models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
-8|models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
+`1` |models/gat_gcn_transformer_meth_ge_mut.py 
+`2` |models/gat_gcn_transformer_meth_ge_mut.py -> models/gat_gcn_transformer_ge_only.py
+`3` |models/gat_gcn_transformer_meth_ge_mut_multiple.py
+`4` |models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py
+`5` |models/gat_gcn_transformer_meth_ge_mut_multiple.py -> models/gat_gcn_transformer_ge_only.py
+`6` |models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
+`7` |models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
+`8` |models/gat_gcn_transformer_meth_ge_mut_multiheadattn.py -> models/gat_gcn_transformer_ge_only.py
 
 ## Training
 ### training code:
