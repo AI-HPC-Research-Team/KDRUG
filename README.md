@@ -46,16 +46,16 @@ Download GDSC origion dataset from https://pan.baidu.com/share/init?surl=Z7xiX4T
 	Exp.7  | MSE + KD + RAD  
 	Exp.8  | MSE + RAD  
  
-`origion ge-modal weights used in code`  
+	`origion ge-modal weights used in code`  
 	- result/2024-05-14 18:37:42/model_GAT_GCN_Transformer_ge_only_GDSC.model  
-	
-`origion multi-modal weights used in code`  
+		
+	`origion multi-modal weights used in code`  
 	- model_GAT_GCN_Transformer_meth_ge_mut_GDSC.model  
 	
-`origion combined model`  
+	`origion combined model`  
 	- model_continue_combine_pretrain_relu_GDSC.model  
 	
-`our multi-modal & re-weighted strategy`  
+	`our multi-modal & re-weighted strategy`  
 	- model_continue_combine_pretrain_multiheadattn(ge_others)_relu_GDSC.model  
 
 ### TCGA test
