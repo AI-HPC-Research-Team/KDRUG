@@ -4,7 +4,7 @@
 
 Here we introduce **A Multi-Modal Genomic Knowledge Distillation Framework for Drug Response Prediction**. Specifically, we train a teacher network by feature re-weighting based on inter-modality dependencies and align the inter-sample correlations through our proposed relation-aware differentiation distillation.
 
-![Paper overview](figures/figure1.png)
+![Paper overview](figures/Figure1.png)
 
 **Note:** The sections on Datasets, Model, and Training below describe the contents of the respective directories. Due to size constraints and permissions, some data and ckpts may not be uploaded. The download url can be found in our paper.
 
